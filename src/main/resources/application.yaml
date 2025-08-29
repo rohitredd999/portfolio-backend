@@ -1,0 +1,11 @@
+server:
+  port: ${PORT:8080}   # Render sets PORT, locally defaults to 8080
+
+spring:
+  application:
+    name: portfolio1
+
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
