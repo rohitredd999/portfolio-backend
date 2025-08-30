@@ -1,10 +1,9 @@
 server:
-  port: ${PORT:8080}   # Render sets PORT, locally defaults to 8080
+  port: ${PORT:8080}   # Render injects PORT; 8080 locally
 
 spring:
   application:
     name: portfolio1
-
   autoconfigure:
     exclude:
       - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
