@@ -15,8 +15,7 @@ public class WebConfig {
                 registry.addMapping("/api/**")
                         .allowedOrigins(
                                 "http://localhost:5173",
-                                "https://YOUR-NETLIFY-SITE.netlify.app",
-                                "https://YOUR-USERNAME.github.io"
+                                "https://rohithreddyg.netlify.app/",
                         )
                         .allowedMethods("GET","POST","PUT","DELETE");
             }
